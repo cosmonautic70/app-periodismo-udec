@@ -423,7 +423,7 @@ export default function App() {
           {/* ADMIN TOGGLE */}
           <div className="flex items-center gap-3 border-l border-[#333] pl-6">
             <span className={isAdmin ? 'text-cyan-400' : 'text-gray-500'}>
-              {isAdmin ? 'ADMIN CONECTADO' : 'MODO CADETE'}
+              {isAdmin ? 'ADMIN CONECTADO' : 'MODO ESTUDIANTE'}
             </span>
             <button
               onClick={toggleAdmin}
